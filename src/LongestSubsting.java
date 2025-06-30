@@ -12,7 +12,7 @@ public class LongestSubsting {
             char currentChar = s.charAt(right);
 
             // If currentChar is already in set, move the left pointer
-            while (set.contains(currentChar)) {
+             while (set.contains(currentChar)) {
                 set.remove(s.charAt(left));
                 left++;
             }
